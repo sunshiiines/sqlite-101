@@ -1,5 +1,5 @@
 ###
-POST http://localhost:3008/api/greetings
+POST https://sqlite-101-ad9w.onrender.com/api/greetings
 Content-Type: application/json
 
 {
@@ -8,7 +8,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3008/api/greetings
+GET https://sqlite-101-ad9w.onrender.com/api/greetings
 Content-Type: application/json
 
 {

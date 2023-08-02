@@ -5,3 +5,5 @@ insert into greetings (language, greeting) values ('tswana', 'Dumelang');
 -- drop table greetings;
 
 delete from greetings where id = 1;
+
+select * from greetings;

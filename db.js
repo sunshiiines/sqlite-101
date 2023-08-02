@@ -5,6 +5,7 @@ const db = await sqlite.open({
     filename: './101.db',
     driver: sqlite3.Database
 }); 
+
 await db.migrate()
 
 export async function getGreetings(){
@@ -39,7 +40,7 @@ console.log(result1);
 
 console.log('==========')
 
-//await addGreeting('sepedi', 'Dumela');
+await addGreeting('sepedi', 'Dumela');
 //await deleteGreetingByLanguage('sepedi');
 //await deleteGreeting(11);
 await updateGreeting('sepedi', 'Thobela', 9)

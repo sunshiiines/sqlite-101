@@ -27,4 +27,5 @@ app.post('/api/greetings', async (req,res) => {
         message : `Added a greeting for ${language}`
     })
 });
+
 app.listen(PORT, () => console.log(`started on port: ${PORT}`) )
